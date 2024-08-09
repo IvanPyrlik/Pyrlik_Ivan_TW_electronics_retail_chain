@@ -5,7 +5,7 @@ from network.permissions import IsActiveEmployee
 from network.serializers import NetworkSerializer
 
 
-class CompanyViewSet(viewsets.ModelViewSet):
+class NetworkViewSet(viewsets.ModelViewSet):
     """
     CRUD для модели Network.
     """
